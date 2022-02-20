@@ -1,0 +1,12 @@
+import random
+a=int(input("starting range:"))
+b=int(input("ending range"))
+num=(random.randint(a,b))
+guess=0
+i=0
+while(i<=num):
+	guess=int(input("thinking number:"))
+	if (guess==num):
+		print("you win")
+	else:
+		print("you lost")
